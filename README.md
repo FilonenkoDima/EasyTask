@@ -1,27 +1,67 @@
 # EasyTask
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
+## About the Project
 
-## Development server
+**EasyTask** is a **task management application** designed to help users organize and track their tasks efficiently. Built with a focus on simplicity, this project demonstrates the use of modern front-end technologies to create a user-friendly and responsive interface.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Demo
 
-## Code scaffolding
+![](demo.gif)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Getting Started
 
-## Build
+### Installation and Running the Project
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone the repository:
 
-## Running unit tests
+   ```bash
+   git clone https://github.com/FilonenkoDima/EasyTask.git
+   cd EasyTask
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Install dependencies:
 
-## Running end-to-end tests
+   ```bash
+   npm install
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. Start the development server:
 
-## Further help
+   ```bash
+   npm start
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+4. Open your browser and visit:
+   ```
+   http://localhost:4200
+   ```
+
+## Project Structure
+
+```plaintext
+EasyTask/
+├── src/
+│ ├─ app/               # Core app modules
+│ │ ├─ header/          # Header component
+│ │ ├─ shared/          # Reusable UI Components
+│ │ ├─ tasks/           # Tasks components
+│ │ │ ├─ new-task/      # Create new tasks
+│ │ │ ├─ task/          # Individual task components
+│ │ ├─ user/            # User component
+│ ├─ main.js            # App entry point
+│ ├─ index.html         # Base HTML template
+│ ├─ assets/            # Static resources
+├─ public/              # Publicly served files
+```
+
+## Key Features and Architecture
+
+### Application Workflow
+
+1. **Task Creation**: Add tasks with custom descriptions and deadlines.
+2. **Task Filtering**: View tasks based on their status (e.g., Pending, Completed).
+3. **Dynamic Updates**: All updates reflect immediately on the UI without reloading.
+
+## Contribution
+
+Contributions are welcome! Fork the repository, make your changes, and submit a pull request.
