@@ -1,4 +1,4 @@
-#tasks {
+/* #tasks {
   padding: 1rem;
   border-radius: 8px;
   max-height: 65vh;
@@ -39,7 +39,7 @@ menu button {
 menu button:hover,
 menu button:active {
   background-color: #a565dd;
-}
+} */
 
 ul {
   list-style: none;
@@ -52,7 +52,7 @@ ul {
   overflow: auto;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   h2 {
     font-size: 1.25rem;
   }
@@ -60,4 +60,4 @@ ul {
   menu {
     width: auto;
   }
-}
+} */
