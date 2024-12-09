@@ -1,6 +1,6 @@
-import { Component, inject, } from '@angular/core';
+import { Component, inject } from '@angular/core';
 
-import { UserComponent } from ;
+import { UserComponent } from './user/user.component';
 import { UsersService } from './users.service';
 
 @Component({
@@ -10,7 +10,7 @@ import { UsersService } from './users.service';
   templateUrl: './users.component.html',
   styleUrl: './users.component.css',
 })
-export class UserComponent {
+export class UsersComponent {
   private userService = inject(UsersService);
   users = this.userService.users;
 }
