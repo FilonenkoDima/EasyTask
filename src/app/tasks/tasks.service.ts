@@ -1,4 +1,5 @@
 import { Injectable, signal } from '@angular/core';
+
 import { type NewTaskData } from './task/task.model';
 
 @Injectable({ providedIn: 'root' })
@@ -35,7 +36,7 @@ export class TasksService {
     const tasks = localStorage.getItem('tasks');
 
     if (tasks) {
-      this.tasks = JSON.parse(tasks);
+      this.tasks.set(JSON.parse(tasks));
     }
   }
 
