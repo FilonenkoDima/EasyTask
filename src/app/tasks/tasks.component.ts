@@ -15,7 +15,7 @@ import { Task } from './task/task.model';
 export class TasksComponent {
   userTasks = input.required<Task[]>();
   userId = input.required<string>();
-  order = input<'asc' | 'desc' | undefined>;
+  order = input<'asc' | 'desc' | undefined>();
 }
 
 export const resolveUserTasks: ResolveFn<Task[]> = (
