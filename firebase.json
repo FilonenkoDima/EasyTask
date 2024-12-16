@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/easy-task/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
